@@ -15,6 +15,7 @@ import GallerySection2 from './components/design2/GallerySection';
 import FaqSection2 from './components/design2/FaqSection';
 import CtaSection2 from './components/design2/CtaSection';
 import Footer2 from './components/design2/Footer';
+import MobileMenu2 from './components/design2/MobileMenu';
 import MobileMenu from './components/design1/MobileMenu';
 import DesignSwitcher from './components/DesignSwitcher';
 import { HardHat, Trash2, ShieldCheck, Zap, Truck, Recycle, Hammer } from 'lucide-react';
@@ -95,6 +96,7 @@ const App = () => {
           <FaqSection2 />
           <CtaSection2 />
           <Footer2 />
+          <MobileMenu2 isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         </>
       )}
       <DesignSwitcher currentDesign={currentDesign} setDesign={setCurrentDesign} />

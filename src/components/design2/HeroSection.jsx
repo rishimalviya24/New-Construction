@@ -58,25 +58,25 @@ const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
             </svg>
-            <span className="uppercase tracking-[0.3em] font-black text-[13px] text-white">Construction Company</span>
+            <span className="uppercase tracking-[0.3em] font-black text-[13px] text-white">Baustelle Rückbau</span>
           </div>
           
           <h1 className="text-white text-6xl md:text-7xl lg:text-[88px] font-[900] leading-[0.85] uppercase tracking-tighter mb-10">
-            Where Plans <br /> 
-            <span className="block mt-2">Become Projects</span>
+            Wir räumen <br /> 
+            <span className="block mt-2">den Platz.</span>
           </h1>
           
           <p className="text-gray-200 text-lg md:text-xl font-medium leading-[1.6] max-w-lg mb-10">
-            From first idea to final build, we turn your plans into solid results—with clear communication, fair pricing, and work you can count on.
+            Vom Badezimmer bis zur Industriehalle: Wir reissen ab, trennen sauber und hinterlassen alles besenrein. Kein Job zu dreckig, keine Wand zu dick. Wir erledigen das.
           </p>
 
           {/* Dual Buttons */}
           <div className="flex flex-wrap gap-4">
             <button className="bg-[#bd5e3b] text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:scale-105 transition-transform">
-              Call (913) 297-3000
+              WhatsApp Offerte
             </button>
             <button className="bg-transparent border-2 border-white text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:bg-white hover:text-black transition-all">
-              Contact Us
+              Termin buchen
             </button>
           </div>
         </div>
