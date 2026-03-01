@@ -3,33 +3,33 @@ import React from 'react';
 const ServicesSection = () => {
   const services = [
     {
-      title: 'Framing',
+      title: 'Rückbau',
       image: '/img1.avif', 
-      description: 'We put up the wood frame that holds your home. It’s the base for walls, floors, and roofs—and it has to be done right.',
+      description: 'Wir reissen ab, trennen sauber und verlassen alles besenrein. Professioneller Abbruch von Gebäuden, Räumen und Strukturen.',
       link: '#'
     },
     {
-      title: 'Siding',
+      title: 'Entkernung',
       image: '/img1.avif', 
-      description: 'We install siding that protects your home from weather and gives it a clean, finished look you can feel good about.',
+      description: 'Vollständige Entkernung von Innenräumen mit fachgerechter Entsorgung und recyclinggerechter Materialtrennung.',
       link: '#'
     },
     {
-      title: 'Custom Decks',
+      title: 'Recycling',
       image: '/img1.avif', 
-      description: 'We design and build decks that fit your space, giving you more room to relax, gather, and enjoy the outdoors.',
+      description: 'Wir trennen Materialien direkt vor Ort für effiziente und umweltgerechte Verwertung.',
       link: '#'
     },
     {
-      title: 'Remodeling',
+      title: 'Sanierung',
       image: '/img1.avif', 
-      description: 'We update kitchens, bathrooms, and other spaces to improve how they look, feel, and work for your everyday life.',
+      description: 'Sanierungslösungen für private und gewerbliche Liegenschaften nach Ihren spezifischen Anforderungen.',
       link: '#'
     },
     {
-      title: 'Porches',
+      title: 'Entsorgung',
       image: '/img1.avif', 
-      description: 'We build porches that add charm and function—giving you a place to sit, greet guests, or enjoy fresh air.',
+      description: 'Professionelle Entsorgung aller Materialarten mit vollständiger Dokumentation und Zertifizierung.',
       link: '#'
     }
   ];
@@ -55,13 +55,13 @@ const ServicesSection = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <span className="text-[#666] font-bold text-[10px] tracking-[0.2em] uppercase">What We Do</span>
+            <span className="text-[#666] font-bold text-[10px] tracking-[0.2em] uppercase">Was wir tun</span>
           </div>
-          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none">Our Services</h2>
+          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none">Profi <span className="text-white">Demontage.</span></h2>
         </div>
         <div className="pb-2">
           <p className="text-[#999] text-lg font-medium leading-relaxed">
-            We handle a wide range of home projects, <span className="text-[#bd5e3b]">from framing and siding to decks, porches, and remodeling</span> — done with care, done the right way.
+            Saubere Trennung und effiziente Entsorgung ist unser <span className="text-[#bd5e3b]">Kerngeschäft</span> — präzise und zuverlässig.
           </p>
         </div>
       </div>
@@ -101,7 +101,7 @@ const ServicesSection = () => {
       {/* Button */}
       <div className="flex justify-center">
         <button className="bg-white text-[#1a1a1a] px-10 py-4 rounded-full font-bold text-[13px] uppercase tracking-wider hover:bg-[#bd5e3b] hover:text-white transition-all shadow-xl">
-          Services Page
+          Mehr erfahren
         </button>
       </div>
 

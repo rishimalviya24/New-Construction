@@ -17,12 +17,12 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 lg:gap-12 border-b border-[#333] pb-12 text-center lg:text-left">
           <div className="flex-shrink-0 bg-white/5 p-4 rounded-lg">
              {/* Fallback if logo is missing, or use text */}
-             <img src="/logo.png" alt="Elite Contractors LLC" className="h-20 w-auto opacity-90 hover:opacity-100 transition-opacity" />
+             <div className="text-xl font-black italic text-white">Rückbau<span className="text-[#bd5e3b]">Pro</span></div>
           </div>
           <div className="max-w-2xl">
-            <h4 className="text-[#bd5e3b] font-bold text-sm uppercase tracking-widest mb-4">Elite Contractors LLC</h4>
+            <h4 className="text-[#bd5e3b] font-bold text-sm uppercase tracking-widest mb-4">RückbauPro</h4>
             <p className="text-[#a0a0a0] leading-relaxed text-[15px] md:text-base">
-              With 15 years in business and 35+ years of industry experience, our team offers reliable home building and repair services in and around Olathe, KS, USA. We build with integrity and precision.
+              Mit 15+ Jahren Erfahrung im Rückbau, Entkernung und Recycling sind wir Ihr zuverlässiger Partner für saubere Demontage und professionelle Entsorgung in der Schweiz. Wir arbeiten mit Integrität und Präzision.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
         {/* Middle Section: Services Links */}
         <div className="py-10 border-b border-[#333]">
           <div className="flex flex-wrap justify-center lg:justify-between gap-x-8 gap-y-4 px-4">
-            {['Framing', 'Siding', 'Custom Decks', 'Remodeling', 'Porches'].map((item) => (
+            {['Rückbau', 'Entkernung', 'Recycling', 'Sanierung', 'Entsorgung'].map((item) => (
               <a key={item} href="#" className="group flex items-center gap-2 text-[#e5e5e5] text-lg md:text-xl font-bold hover:text-[#bd5e3b] transition-all duration-300">
                 <span className="w-1.5 h-1.5 bg-[#bd5e3b] rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                 {item}
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="text-center sm:text-left">
             <h5 className="text-[#bd5e3b] font-bold text-xs uppercase tracking-widest mb-6">Explore</h5>
             <ul className="space-y-3">
-              {['Home', 'About Us', 'Our Gallery', 'Contact Us'].map((item) => (
+              {['Home', 'Über Uns', 'Projekte', 'Kontakt'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-[#ccc] text-sm font-medium hover:text-white hover:translate-x-1 inline-block transition-transform duration-200">{item}</a>
                 </li>
@@ -56,30 +56,30 @@ const Footer = () => {
 
           {/* Address */}
           <div className="text-center sm:text-left">
-             <h5 className="text-[#bd5e3b] font-bold text-xs uppercase tracking-widest mb-6">Visit Us</h5>
+             <h5 className="text-[#bd5e3b] font-bold text-xs uppercase tracking-widest mb-6">Besuche Uns</h5>
              <p className="text-[#ccc] text-sm leading-relaxed mb-4">
-               18495 South Ridgeview Road,<br />
-               Olathe, KS, USA
+               Zürich | Aargau | Zug<br />
+               Schweiz
              </p>
              <a href="#" className="text-white text-xs font-bold uppercase tracking-wide border-b border-[#bd5e3b] pb-0.5 hover:text-[#bd5e3b] transition-colors">
-               Get Directions
+               Route abrufen
              </a>
           </div>
 
           {/* Contact Details */}
           <div className="sm:col-span-2 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
              <div className="bg-[#222] p-6 rounded-sm border border-[#333] hover:border-[#bd5e3b]/50 transition-colors group">
-                <h5 className="text-[#666] font-bold text-xs uppercase tracking-widest mb-2 group-hover:text-[#bd5e3b] transition-colors">Call Us</h5>
-                <a href="tel:9132973000" className="text-white text-xl font-bold hover:text-[#bd5e3b] transition-colors block">
-                  (913) 297-3000
+                <h5 className="text-[#666] font-bold text-xs uppercase tracking-widest mb-2 group-hover:text-[#bd5e3b] transition-colors">Anrufen</h5>
+                <a href="tel:+41790000000" className="text-white text-xl font-bold hover:text-[#bd5e3b] transition-colors block">
+                  +41 79 000 00 00
                 </a>
-                <p className="text-[#555] text-xs mt-2">Mon-Fri: 8am - 6pm</p>
+                <p className="text-[#555] text-xs mt-2">Mo-Fr: 8am - 18pm</p>
              </div>
              
              <div className="bg-[#222] p-6 rounded-sm border border-[#333] hover:border-[#bd5e3b]/50 transition-colors group">
-                <h5 className="text-[#666] font-bold text-xs uppercase tracking-widest mb-2 group-hover:text-[#bd5e3b] transition-colors">Email Us</h5>
-                <a href="mailto:elitecontractor66@gmail.com" className="text-white text-lg font-bold hover:text-[#bd5e3b] transition-colors block truncate">
-                  elitecontractor66@gmail.com
+                <h5 className="text-[#666] font-bold text-xs uppercase tracking-widest mb-2 group-hover:text-[#bd5e3b] transition-colors">Email</h5>
+                <a href="mailto:info@rueckbaupro.ch" className="text-white text-lg font-bold hover:text-[#bd5e3b] transition-colors block truncate">
+                  info@rueckbaupro.ch
                 </a>
                 <p className="text-[#555] text-xs mt-2">Online Support 24/7</p>
              </div>
@@ -88,7 +88,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[#555] text-[11px] font-medium uppercase tracking-wider">
-          <p>© 2025 Elite Contractors LLC.</p>
+          <p>© 2025 RückbauPro. Alle Rechte vorbehalten.</p>
           
           <div className="flex gap-6">
             <a href="#" className="hover:text-[#888] transition-colors">Privacy</a>

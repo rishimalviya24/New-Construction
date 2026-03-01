@@ -1,4 +1,5 @@
 import React from 'react';
+import { Zap, Truck, Recycle, Hammer } from 'lucide-react';
 
 const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
@@ -24,18 +25,18 @@ const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
 
         <div className="hidden lg:flex items-center space-x-10">
           <a href="#" className="text-white font-bold text-[15px]">Home</a>
-          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px] transition-colors">About</a>
+          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px] transition-colors">Über Uns</a>
           <div className="flex items-center gap-1 text-gray-200 hover:text-white font-semibold text-[15px] cursor-pointer group">
-            <span>Our Services</span>
+            <span>Leistungen</span>
             <svg className="w-4 h-4 mt-0.5 transition-transform group-hover:translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" /></svg>
           </div>
-          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px]">Gallery</a>
-          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px]">Contact</a>
+          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px]">Galerie</a>
+          <a href="#" className="text-gray-200 hover:text-white font-semibold text-[15px]">Kontakt</a>
         </div>
 
         <div className="flex items-center gap-4">
-            <a href="tel:9132973000" className="hidden sm:block bg-[#bd5e3b] text-white px-7 py-3 rounded-full font-bold text-[14px] hover:bg-[#a64d2e] transition-all shadow-sm">
-            Call (913) 297-3000
+            <a href="tel:+41790000000" className="hidden sm:block bg-[#bd5e3b] text-white px-7 py-3 rounded-full font-bold text-[14px] hover:bg-[#a64d2e] transition-all shadow-sm">
+            +41 79 000 00 00
             </a>
             
             {/* Mobile Menu Button */}
@@ -53,12 +54,14 @@ const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
         
         {/* Left Content (Text) */}
         <div className="lg:col-span-7 flex flex-col justify-center">
-          {/* Subheading with Icon */}
-          <div className="flex items-center gap-3 text-[#bd5e3b] mb-6">
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-            </svg>
-            <span className="uppercase tracking-[0.3em] font-black text-[13px] text-white">Baustelle Rückbau</span>
+          {/* Subheading with badges */}
+          <div className="mb-8 flex flex-wrap gap-4">
+            <span className="inline-block bg-yellow-500 text-black px-3 py-1 font-black uppercase text-[10px] tracking-widest shadow-sm">
+              Schweizweiter Service
+            </span>
+            <span className="inline-block bg-slate-900 text-white px-3 py-1 font-black uppercase text-[10px] tracking-widest">
+              Direkt &amp; Effizient
+            </span>
           </div>
           
           <h1 className="text-white text-6xl md:text-7xl lg:text-[88px] font-[900] leading-[0.85] uppercase tracking-tighter mb-10">
@@ -67,17 +70,37 @@ const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
           </h1>
           
           <p className="text-gray-200 text-lg md:text-xl font-medium leading-[1.6] max-w-lg mb-10">
-            Vom Badezimmer bis zur Industriehalle: Wir reissen ab, trennen sauber und hinterlassen alles besenrein. Kein Job zu dreckig, keine Wand zu dick. Wir erledigen das.
+            Vom Badezimmer bis zur Industriehalle: Wir reissen ab, trennen sauber und hinterlassen alles besenrein. 
+            <span className="block mt-4 font-black italic">
+              Kein Job zu dreckig, keine Wand zu dick. Wir erledigen das.
+            </span>
           </p>
 
           {/* Dual Buttons */}
           <div className="flex flex-wrap gap-4">
-            <button className="bg-[#bd5e3b] text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:scale-105 transition-transform">
+            <a href="https://wa.me/41790000000" target="_blank" rel="noopener noreferrer" className="bg-[#bd5e3b] text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:scale-105 transition-transform flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
               WhatsApp Offerte
-            </button>
-            <button className="bg-transparent border-2 border-white text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:bg-white hover:text-black transition-all">
+            </a>
+            <button className="bg-transparent border-2 border-white text-white px-9 py-4 rounded-full font-bold text-[14px] uppercase tracking-wider hover:bg-white hover:text-black transition-all flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
               Termin buchen
             </button>
+          </div>
+
+          {/* Highlights row */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
+            {[
+              { icon: <Zap className="text-yellow-600" size={20} />, text: 'Schnelle Abwicklung' },
+              { icon: <Truck className="text-yellow-600" size={20} />, text: 'Eigener Maschinenpark' },
+              { icon: <Recycle className="text-yellow-600" size={20} />, text: 'Fachgerechtes Recycling' },
+              { icon: <Hammer className="text-yellow-600" size={20} />, text: 'Profi-Equipment' }
+            ].map((h, i) => (
+              <div key={i} className="flex items-center gap-2 text-slate-500 font-bold uppercase text-[10px] tracking-wider">
+                <span className="text-yellow-600">{h.icon}</span>
+                {h.text}
+              </div>
+            ))}
           </div>
         </div>
 
@@ -90,10 +113,10 @@ const HeroSection = ({ isMenuOpen, setIsMenuOpen }) => {
                 ))}
               </div>
               <p className="text-[#444] text-[15px] font-semibold leading-relaxed mb-6">
-                "Fantastic work! Professional, careful, and high-quality results on our deck and siding. Highly recommend!"
+                "Besenrein und pünktlich! Das Team arbeitet effizient, respektvoll und verlässt die Baustelle in bestem Zustand. Sehr zu empfehlen!"
               </p>
               <div className="flex items-center justify-between border-t border-gray-100 pt-4">
-                <span className="font-extrabold text-[14px] text-gray-900">Emily Rowland</span>
+                <span className="font-extrabold text-[14px] text-gray-900">Stefan Müller</span>
                 <div className="flex gap-2">
                   <div className="w-9 h-9 border border-gray-200 rounded-full flex items-center justify-center text-[#bd5e3b] cursor-pointer hover:bg-gray-50 transition-colors">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M15 19l-7-7 7-7" /></svg>

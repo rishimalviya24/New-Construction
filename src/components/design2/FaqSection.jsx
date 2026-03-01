@@ -5,28 +5,28 @@ const FaqSection = () => {
 
   const faqs = [
     {
-      question: "What types of projects do you take on?",
-      answer: "We handle a wide range of residential projects including custom home builds, major renovations, additions, decks, and siding. If you have a specific project in mind, feel free to reach out!"
+      question: "Welche Projekte übernehmen Sie?",
+      answer: "Wir führen eine breite Palette von Rückbau- und Entkernungsarbeiten durch – vom Einfamilienhaus bis zur Industriehalle. Haben Sie ein spezielles Projekt? Kontaktieren Sie uns gern!"
     },
     {
-      question: "Do you offer free estimates?",
-      answer: "Yes, we offer free, no-obligation estimates to help you plan and budget your project."
+      question: "Bieten Sie kostenlose Offerten an?",
+      answer: "Ja, wir erstellen kostenlose und unverbindliche Offerten, damit Sie Ihre Planung und Ihr Budget im Griff haben."
     },
     {
-      question: "How long will my project take?",
-      answer: "Timeline depends on the scope of work. A simple deck might take a week, while a full remodel could take several months. We provide a detailed schedule before we start so you know what to expect."
+      question: "Wie lange dauert mein Projekt?",
+      answer: "Die Dauer hängt vom Umfang ab. Ein kleines Badezimmer ist in wenigen Tagen erledigt, der Rückbau einer Halle kann mehrere Wochen dauern. Vor Beginn erhalten Sie einen detaillierten Zeitplan."
     },
     {
-      question: "Can you help with design ideas?",
-      answer: "Absolutely! We work with talented architects and designers who can help bring your vision to life, or we can work with plans you already have."
+      question: "Können Sie bei der Planung helfen?",
+      answer: "Gerne! Wir beraten Sie bei der Projektplanung oder arbeiten mit vorhandenen Plänen."
     },
     {
-      question: "Are you licensed and insured?",
-      answer: "Yes, we are fully licensed and insured for all the work we perform. We prioritize safety and professionalism on every job site."
+      question: "Sind Sie lizenziert und versichert?",
+      answer: "Ja, wir sind vollständig lizenziert und versichert. Sicherheit und Professionalität haben für uns oberste Priorität."
     },
     {
-      question: "How do I get started?",
-      answer: "Getting started is easy. Just give us a call or fill out our contact form. We'll schedule a time to meet, discuss your project, and provide a free estimate."
+      question: "Wie beginne ich?",
+      answer: "Kontaktieren Sie uns telefonisch oder über das Formular. Wir vereinbaren einen Termin, besprechen Ihr Vorhaben und erstellen eine Offerte."
     }
   ];
 
@@ -40,12 +40,12 @@ const FaqSection = () => {
         
         {/* Left Column: Heading & Intro */}
         <div className="lg:col-span-5 relative lg:sticky lg:top-24">
-          <h2 className="text-[#1a1a1a] text-4xl md:text-5xl lg:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-6">FAQS</h2>
+          <h2 className="text-[#1a1a1a] text-4xl md:text-5xl lg:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-6">Häufige Fragen</h2>
           <p className="text-[#555] font-medium leading-relaxed mb-8 md:mb-10 max-w-sm">
-            Have questions? Here are some common things homeowners ask before starting a project with us.
+            Sie haben Fragen? Hier sind einige Dinge, die uns häufig gestellt werden, bevor ein Projekt beginnt.
           </p>
           <button className="bg-transparent border-2 border-[#bd5e3b] text-[#1a1a1a] px-10 py-3.5 rounded-full font-bold text-[14px] uppercase tracking-wider hover:bg-[#bd5e3b] hover:text-white transition-all">
-            Contact Us
+            Kontaktieren Sie uns
           </button>
         </div>
 

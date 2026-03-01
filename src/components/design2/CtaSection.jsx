@@ -24,19 +24,26 @@ const CtaSection = () => {
         
         {/* Headline */}
         <h2 className="text-white text-5xl md:text-[64px] font-[900] uppercase tracking-tighter leading-[0.9] mb-8 drop-shadow-sm">
-          Where Plans <br />
-          Become Projects
+          Bereit für den <br />
+          Durchbruch?
         </h2>
         
         {/* Subtext */}
         <p className="text-white/90 text-lg md:text-xl font-medium leading-relaxed max-w-2xl mx-auto mb-10">
-          Let’s bring your plans to life—reach out today to start your project with a team you can trust.
+          Kein Job zu dreckig, keine Wand zu dick. Foto via WhatsApp genügt für eine erste Einschätzung.
         </p>
         
-        {/* Button */}
-        <button className="bg-[#f6f4f0] text-[#1a1a1a] px-12 py-4 rounded-full font-bold text-[15px] hover:bg-white hover:scale-105 transition-all shadow-xl uppercase tracking-wide">
-          Contact Us
-        </button>
+        {/* Buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
+          <a href="tel:+41790000000" className="bg-white text-[#1a1a1a] px-12 py-4 rounded-full font-bold text-[15px] hover:bg-[#f6f4f0] hover:scale-105 transition-all shadow-xl uppercase tracking-wide flex items-center gap-3">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+            079 000 00 00
+          </a>
+          <button className="bg-[#f6f4f0] text-[#1a1a1a] px-12 py-4 rounded-full font-bold text-[15px] hover:bg-white hover:scale-105 transition-all shadow-xl uppercase tracking-wide flex items-center gap-3">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+            WhatsApp
+          </button>
+        </div>
 
       </div>
     </section>

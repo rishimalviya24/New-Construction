@@ -29,9 +29,9 @@ const AboutSection = () => {
                <span className="text-[#bd5e3b] text-xl">→</span>
                <span className="text-[#999] font-bold text-[11px] uppercase tracking-[0.2em]">Elite Contractors LLC</span>
             </div>
-            <h2 className="text-[#1a1a1a] text-4xl md:text-5xl lg:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-6">About Us</h2>
+            <h2 className="text-[#1a1a1a] text-4xl md:text-5xl lg:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-6">Einfach <span className="text-[#bd5e3b]">machen lassen.</span></h2>
             <p className="text-[#555] font-medium leading-relaxed mb-8 max-w-xs mx-auto lg:mx-0">
-              We take pride in getting the job done right—on time, on budget, and built to last for years to come.
+              15+ Jahre Erfahrung im Rückbau, Entkernung und effizienten Recycling.
             </p>
             <button className="bg-transparent border-2 border-[#dcdcdc] text-[#1a1a1a] px-8 py-3 rounded-full font-bold text-[13px] uppercase tracking-wider hover:border-[#bd5e3b] hover:bg-[#bd5e3b] hover:text-white transition-all">
               Learn More
@@ -41,25 +41,25 @@ const AboutSection = () => {
           {/* Right Column: Description & Stats */}
           <div className="lg:col-span-8 flex flex-col justify-center text-center lg:text-left">
             <h3 className="text-[#1a1a1a] text-2xl md:text-3xl font-bold leading-tight mb-6">
-              We’re a team that <span className="text-[#bd5e3b]">shows up, works hard</span>, and stands behind everything we build.
+              Wir verlassen die Baustelle erst, wenn man vom <span className="text-[#bd5e3b]">Boden essen könnte.</span>
             </h3>
             <p className="text-[#666] leading-relaxed mb-12 max-w-3xl mx-auto lg:mx-0">
-              At Elite Contractors, we believe in honest work that speaks for itself. Founded 15 years ago by Jim—a builder with over 35 years in the construction industry—we’ve grown into a reliable team of 25, running 11 active crews across the region. From day one, we’ve focused on getting the basics right: show up, do the work, and do it well.
+              Bei uns ist Qualität kein Zufall – es ist unser Standard. Mit über 15 Jahren Erfahrung im Rückbau und Recycling haben wir ein System perfektioniert, das funktioniert. Wir trennen Materialien direkt vor Ort, arbeiten sauber und zuverlässig, und halten uns an vereinbarte Termine. Egal ob Badezimmer oder Industriehalle – wir erledigen das.
             </p>
 
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 border-t border-[#e5e5e5] pt-8">
               <div>
-                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">500+</div>
-                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Projects Done</div>
+                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">15+</div>
+                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Jahre Erfahrung</div>
               </div>
               <div className="relative sm:pl-8 pt-8 sm:pt-0 border-t sm:border-t-0 sm:border-l border-[#e5e5e5]">
-                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">4.8</div>
-                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Reviews Rating</div>
+                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">1000+</div>
+                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Projekte Abgebaut</div>
               </div>
               <div className="relative sm:pl-8 pt-8 sm:pt-0 border-t sm:border-t-0 sm:border-l border-[#e5e5e5]">
-                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">35+</div>
-                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Years in Construction</div>
+                <div className="text-[#bd5e3b] text-4xl font-[900] mb-1">100%</div>
+                <div className="text-[#1a1a1a] font-bold text-[13px] uppercase tracking-wide">Besenrein</div>
               </div>
             </div>
           </div>
@@ -81,20 +81,20 @@ const AboutSection = () => {
             
            {/* Left Column: Heading */}
            <div className="lg:col-span-4">
-             <div className="flex items-center gap-2 mb-4">
-               <svg className="w-4 h-4 text-[#bd5e3b]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-               <span className="text-[#999] font-bold text-[11px] uppercase tracking-[0.2em]">Why Choose Us</span>
-             </div>
-             <h2 className="text-[#1a1a1a] text-4xl md:text-[42px] font-[900] uppercase tracking-tighter leading-none mb-6">Our Benefits</h2>
+             <div className="flex items-center justify-center lg:justify-start gap-2 mb-4">
+               <span className="text-[#bd5e3b] text-xl">✓</span>
+               <span className="text-[#999] font-bold text-[11px] uppercase tracking-[0.2em]">Warum uns wählen</span>
+            </div>
+            <h2 className="text-[#1a1a1a] text-4xl md:text-[42px] font-[900] uppercase tracking-tighter leading-none mb-6">Unsere <span className="text-[#bd5e3b]">Stärken.</span></h2>
            </div>
 
            {/* Right Column: Intro Text */}
            <div className="lg:col-span-8">
               <h3 className="text-[#1a1a1a] text-xl md:text-2xl font-bold leading-tight mb-4">
-                We keep things <span className="text-[#bd5e3b]">simple, honest, and focused</span> on what matters to you.
+                Wir arbeiten <span className="text-[#bd5e3b]">sauber, schnell und zuverlässig.</span>
               </h3>
               <p className="text-[#666] leading-relaxed max-w-2xl">
-                Working with Elite Contractors means less stress and better results. We show up on time, keep you informed, and do what we say we'll do. From start to finish, we stay focused on your goals, your budget, and the quality you expect.
+                Mit unseren bewährten Verfahren und dem Fokus auf Effizienz liefern wir konsistent besenreines Ergebnis. Von der Termin-Zusage bis zum letzten Quadratmeter – wir halten unser Versprechen.
               </p>
            </div>
         </div>
@@ -105,33 +105,33 @@ const AboutSection = () => {
           {/* Benefit 1 */}
           <div className="group">
              <div className="w-12 h-12 mb-6 text-[#bd5e3b] group-hover:scale-110 transition-transform duration-300">
-               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" /></svg>
+               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
              </div>
-             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Clear Communication</h4>
+             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Besenrein</h4>
              <p className="text-[#666] text-sm leading-relaxed">
-               We keep you updated at every step so there are no surprises along the way.
+               Wir verlassen die Baustelle erst, wenn man vom Boden essen könnte. Das ist nicht nur ein Versprechen – das ist unser Standard.
              </p>
           </div>
 
           {/* Benefit 2 */}
           <div className="group">
              <div className="w-12 h-12 mb-6 text-[#bd5e3b] group-hover:scale-110 transition-transform duration-300">
-               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" /></svg>
+               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
              </div>
-             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Upfront Pricing</h4>
+             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Recycling</h4>
              <p className="text-[#666] text-sm leading-relaxed">
-               We give fair, honest quotes and stick to them—no hidden costs later.
+               Wir trennen Materialien direkt vor Ort für eine effiziente und umweltgerechte Entsorgung.
              </p>
           </div>
 
           {/* Benefit 3 */}
           <div className="group">
              <div className="w-12 h-12 mb-6 text-[#bd5e3b] group-hover:scale-110 transition-transform duration-300">
-               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
              </div>
-             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Built to Last</h4>
+             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Express</h4>
              <p className="text-[#666] text-sm leading-relaxed">
-               We follow the right methods and use strong materials that hold up.
+               Kurze Vorlaufzeiten und pünktliche Terminabwicklung sind bei uns Gesetz. Wir halten, was wir versprechen.
              </p>
           </div>
 
@@ -140,9 +140,9 @@ const AboutSection = () => {
              <div className="w-12 h-12 mb-6 text-[#bd5e3b] group-hover:scale-110 transition-transform duration-300">
                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
              </div>
-             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Respect for Your Home</h4>
+             <h4 className="text-[#1a1a1a] font-bold text-lg mb-3">Profis mit Erfahrung</h4>
              <p className="text-[#666] text-sm leading-relaxed">
-               We stay clean, safe, and treat your space like it’s our own.
+               Mit über 15 Jahren Branchenerfahrung wissen wir, wie man den Job richtig macht. Jedes Projekt ein neuer Standard.
              </p>
           </div>
 

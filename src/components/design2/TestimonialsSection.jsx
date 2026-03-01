@@ -3,33 +3,33 @@ import React from 'react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Jessica Parker",
-      text: "Fantastic experience! The team was professional, attentive, and completed our project with great care. Our new deck and siding look amazing. Highly recommend!",
+      name: "Jessica Müller",
+      text: "Fantastische Erfahrung! Das Team war professionell, aufmerksam und hat unser Projekt mit großer Sorgfalt abgeschlossen. Unser Rückbau wurde pünktlich und besenrein durchgeführt. Sehr empfehlenswert!",
       rating: 5
     },
     {
-      name: "Michael Thompson",
-      text: "We had an outstanding experience working with this construction company. From the initial planning stage to the final execution, their team was professional, attentive, and detail-oriented. Every part of our project was handled with care, and they ensured that everything was completed on time and to the highest standards.",
+      name: "Michael Schneider",
+      text: "Wir hatten eine ausgezeichnete Zusammenarbeit. Von der ersten Planung bis zur abschließenden Übergabe war das Team professionell und detailverliebt. Alles wurde termingenau und nach höchsten Standards ausgeführt.",
       rating: 5
     },
     {
-      name: "Sarah Williams",
-      text: "Excellent craftsmanship and attention to detail! The team handled our project professionally from start to finish. Our home renovation exceeded expectations, and we couldn't be happier with the results.",
+      name: "Sarah Gruber",
+      text: "Ausgezeichnete Arbeit und Liebe zum Detail! Unser Badezimmer wurde vollständig entkernt und sauber übergeben. Wir sind mehr als zufrieden mit dem Ergebnis.",
       rating: 5
     },
     {
-      name: "David Miller",
-      text: "We are extremely happy with the work done by this construction company! They professionally and efficiently repaired our roof, taking all our requests into account and leaving everything clean afterwards. Communication was smooth, and the result exceeded our expectations. Highly recommend them to anyone who values quality and reliability.",
+      name: "David Weber",
+      text: "Wir sind sehr glücklich mit der geleisteten Arbeit! Das Dach wurde professionell und effizient saniert, alle unsere Wünsche wurden erfüllt und die Baustelle sauber hinterlassen. Kommunikation war reibungslos.",
       rating: 5
     },
     {
-      name: "Emily Johnson",
-      text: "We are thrilled with the custom deck this company built for us! The craftsmanship is exceptional, and they paid attention to every detail. The team was friendly, and completed the work on time.",
+      name: "Emily Fischer",
+      text: "Wir sind begeistert von dem Rückbau unseres alten Hauses. Alles wurde fachgerecht entsorgt und recycelt. Das Team war freundlich und pünktlich.",
       rating: 5
     },
     {
-      name: "Michael Davis",
-      text: "We are extremely satisfied with the remodeling work this company did for our home! They completely transformed our space, turning our ideas into reality with incredible attention to detail. The team was professional, courteous, and always willing to answer our questions or offer helpful suggestions. The project was completed on schedule, and the quality of their work exceeded our expectations. We couldn't be happier with the results and would highly recommend them to anyone looking for reliable and skilled remodeling services.",
+      name: "Michael Huber",
+      text: "Die Renovierungsarbeiten wurden zu unserer vollsten Zufriedenheit durchgeführt! Die Umsetzung unserer Ideen war professionell und termingerecht. Die Qualität der Arbeit übertraf unsere Erwartungen.",
       rating: 5
     }
   ];
@@ -44,11 +44,11 @@ const TestimonialsSection = () => {
              <svg className="w-4 h-4 text-[#bd5e3b]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
              </svg>
-             <span className="text-[#666] font-bold text-[10px] tracking-[0.2em] uppercase">What Our Customers Say</span>
+             <span className="text-[#666] font-bold text-[10px] tracking-[0.2em] uppercase">Das sagen unsere Kunden</span>
           </div>
-          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-4">Testimonials</h2>
+          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-4">Kundenmeinungen</h2>
           <p className="text-[#555] font-medium text-[15px]">
-            Real feedback from homeowners who've trusted us with their projects.
+            Echte Rückmeldungen von Auftraggebern, die uns ihr Vertrauen geschenkt haben.
           </p>
         </div>
 

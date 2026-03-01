@@ -34,11 +34,11 @@ const TeamSection = () => {
             <svg className="w-3.5 h-3.5 text-[#bd5e3b]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
-            <span className="text-[#888] font-bold text-[10px] tracking-[0.2em] uppercase">Professionals</span>
+            <span className="text-[#888] font-bold text-[10px] tracking-[0.2em] uppercase">Unser Team</span>
           </div>
-          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-4">Our Team</h2>
+          <h2 className="text-[#bd5e3b] text-5xl md:text-[56px] font-[900] uppercase tracking-tighter leading-none mb-4">Die Gesichter<br />hinter RückbauPro</h2>
           <p className="text-[#888] text-[15px] font-medium max-w-lg mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Unser Team besteht aus erfahrenen Rückbauspezialisten, Projektleitern und Recycling-Experten – gemeinsam bringen wir jedes Bauvorhaben sauber zu Ende.
           </p>
         </div>
 
@@ -65,12 +65,12 @@ const TeamSection = () => {
              <div className="absolute inset-0 opacity-[0.05]" style={{ backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, #000 10px, #000 11px)' }}></div>
              
              <div className="relative z-10 py-16 px-8 text-center">
-                <h3 className="text-white text-3xl font-bold mb-3">We're <span className="text-[#bd5e3b]">hiring!</span></h3>
+                <h3 className="text-white text-3xl font-bold mb-3">Wir <span className="text-[#bd5e3b]">stellen ein!</span></h3>
                 <p className="text-[#888] max-w-lg mx-auto mb-8 leading-relaxed">
-                  Join our team at Elite Contractors. We employ dependable team players who seek long-term employment in the trades.
+                  Verstärke unser RückbauPro-Team. Wir suchen verlässliche Fachkräfte, die langfristig in der Branche arbeiten möchten.
                 </p>
                 <button className="bg-[#bd5e3b] text-white px-10 py-3.5 rounded-full font-bold text-[14px] uppercase tracking-wider hover:bg-[#a64d2e] transition-colors shadow-lg">
-                  Apply Now
+                  Jetzt bewerben
                 </button>
              </div>
         </div>

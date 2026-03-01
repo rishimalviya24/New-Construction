@@ -15,14 +15,20 @@ const MobileMenu = ({ isMenuOpen, setIsMenuOpen }) => {
 
   if (!isMenuOpen) return null;
 
-  const links = ['Home', 'About', 'Our Services', 'Gallery', 'Contact'];
+  const links = [
+    { label: 'Home', href: '#home' },
+    { label: 'Über Uns', href: '#about' },
+    { label: 'Leistungen', href: '#services' },
+    { label: 'Galerie', href: '#gallery' },
+    { label: 'Kontakt', href: '#contact' }
+  ];
 
   return (
     <div className="fixed inset-0 z-[100] bg-[#1a1a1a] text-white flex flex-col animate-fadeIn">
       
       {/* Header */}
       <div className="flex items-center justify-between p-6 border-b border-[#333]">
-        <span className="text-[#bd5e3b] font-bold text-sm uppercase tracking-wide">Menu</span>
+        <span className="text-[#bd5e3b] font-bold text-sm uppercase tracking-wide">Menü</span>
         <button 
           onClick={() => setIsMenuOpen(false)}
           className="text-white hover:text-[#bd5e3b] transition-colors p-2"
@@ -38,12 +44,12 @@ const MobileMenu = ({ isMenuOpen, setIsMenuOpen }) => {
         {links.map((link, index) => (
           <a 
             key={index} 
-            href="#" 
+            href={link.href} 
             className="text-3xl md:text-5xl font-bold uppercase tracking-tighter hover:text-[#bd5e3b] transition-all transform hover:scale-105"
             onClick={() => setIsMenuOpen(false)}
             style={{ animationDelay: `${index * 100}ms` }}
           >
-            {link}
+            {link.label}
           </a>
         ))}
       </div>
@@ -51,9 +57,9 @@ const MobileMenu = ({ isMenuOpen, setIsMenuOpen }) => {
       {/* Footer Info */}
       <div className="p-8 border-t border-[#333] grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left">
         <div>
-           <h5 className="text-[#bd5e3b] font-bold text-xs uppercase tracking-widest mb-4">Contact</h5>
-           <a href="tel:9132973000" className="block text-xl font-bold mb-2 hover:text-[#bd5e3b] transition-colors">(913) 297-3000</a>
-           <a href="mailto:elitecontractor66@gmail.com" className="block text-[#ccc] hover:text-white transition-colors">elitecontractor66@gmail.com</a>
+           <h5 className="text-[#bd5e3b] font-bold text-xs uppercase tracking-widest mb-4">Kontakt</h5>
+           <a href="tel:+41790000000" className="block text-xl font-bold mb-2 hover:text-[#bd5e3b] transition-colors">+41 79 000 00 00</a>
+           <a href="mailto:info@rueckbaupro.ch" className="block text-[#ccc] hover:text-white transition-colors">info@rueckbaupro.ch</a>
         </div>
         
         <div className="flex flex-col justify-between">
